@@ -1,3 +1,4 @@
+# Code from data_preparation notebook. Created to have easy imports for other notebooks. 
 import pandas as pd
 import numpy as np
 
@@ -44,7 +45,7 @@ def prepare_df(file, min_perc_used=0, remove_outliers=True, log_scale=True):
 
 
 
-    
+
 
 def get_MACCSFP_fingerprints(min_perc_used=0, remove_outliers=True, log_scale=True):
     file = 'ready_sets/cardiotoxicity_hERG_MACCSFP.csv'
