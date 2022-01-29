@@ -21,7 +21,7 @@ Simply download it with `Download ZIP` option on Github or clone it with `git cl
 
 After that you need to create new conda environment - this can be done with  
 
-`conda create --name <env> --file environment.yml`  
+`conda env create --file environment.yml -n <name>`  
 
 After this just run `jupyter notebook` in the main folder.
 
