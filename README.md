@@ -53,11 +53,11 @@ For detailed results, please refer to the respective notebooks and [`final prese
 ![Regression](/png/regression_res.png)  
 
 Regression results for different fingerprints and different amounts of used features. Results were compared with R^2 score.
-The best results were obtained for mixed fingerprints, with R^2 score of about **0.68**.  
+The best results were obtained for mixed fingerprints, with R^2 score of about **0.68**  
 
 ### Classification  
 
 ![Classification](/png/classification_res.png)  
 
 Classification results for IC50 = 10 000 threshold and different amounts of used features. Results were compared with F1 score and accuracy.
-The best model had accuracy and F1 score of about **0.79**.  
+The best model had accuracy and F1 score of about **0.79**  
