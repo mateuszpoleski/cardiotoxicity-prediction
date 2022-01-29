@@ -42,6 +42,13 @@ def prepare_df(file, min_perc_used=0, remove_outliers=True, log_scale=True):
     print()
     return df
 
+def classify_on_IC50(df, IC50_threshold, log_scale=True):
+    df = df.copy()
+    if log_scale:
+        IC50_threshold = np.log10(IC50_threshold)
+    df['IC50'] = np.where(df['IC50']<IC50_threshold, 1, 0)
+    return df
+
 
 
 
