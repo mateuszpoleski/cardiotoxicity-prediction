@@ -17,15 +17,13 @@ As part of the project, I wanted to achieve the following goals:
 - determine if it's possible to find features that are essential for determining cardiotoxicity.  
 
 ## Installation  
-Simply downloading it with `Download ZIP` option on Github or clone it with `git clone <repository>`.  
+Simply download it with `Download ZIP` option on Github or clone it with `git clone <repository>`.  
 
 After that you need to create new conda environment - this can be done with  
 
 `conda create --name <env> --file environment.yml`  
 
-After this it's possible to run in main folder
-
-`jupyter notebook`  
+After this just run `jupyter notebook` in the main folder.
 
 ## Data  
 The initial data is in `ready_sets.zip`, as size of `.csv` files was too large for github. You need to extract it into `ready_sets` folder.
