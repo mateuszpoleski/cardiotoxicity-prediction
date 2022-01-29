@@ -39,7 +39,7 @@ After extraction it contains three different fingerprint types:
 * [`regression.ipynb`](/regression.ipynb) : notebook with all regression models and results  
 * [`classification.ipynb`](/classification.ipynb) : notebook with all classification models and results  
 * [`class_regr_comp.ipynb`](/class_regr_comp.ipynb) : noetbook to perform comparison of best regression model with best classification model.  
-* [`png`](/utils.py) : contain code from `data_preparation.ipynb` notebook in format that is easier to import.  
+* [`utils.py`](/utils.py) : contain code from `data_preparation.ipynb` notebook in format that is easier to import.  
 * [`presentations`](/presentations) : both entry and final presentations in `.pdf` format.  
 * [`png`](/png) : some `.png` files used for results section in README.  
 
